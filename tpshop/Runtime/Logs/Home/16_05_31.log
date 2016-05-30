@@ -1,0 +1,496 @@
+[ 2016-05-31T00:05:34+08:00 ] ::1 /tpshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_hot=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_best=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_new=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given C:\xampp\htdocs\tpshop\Home\Controller\IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-31T00:08:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0120s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_hot=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_best=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_new=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-31T00:08:10+08:00 ] 127.0.0.1 /index.php/Home/Index/goods/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `comment` WHERE ( 1=1 AND goods_id='1' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-31T00:08:10+08:00 ] 127.0.0.1 /index.php/Home/Index/goods/goods_id/view/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-31T00:08:10+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_hot=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_best=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_new=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-31T00:08:10+08:00 ] 127.0.0.1 /index.php/Home/Index/goods/goods_id/images/ad/ads03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-31T00:08:13+08:00 ] 127.0.0.1 /index.php/Home/Flow/buy/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-05-31T00:08:13+08:00 ] 127.0.0.1 /index.php/Home/Flow/checkout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\b65f8bc40abe095a734023c17e9716d0.php 第 111 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\b65f8bc40abe095a734023c17e9716d0.php 第 111 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\b65f8bc40abe095a734023c17e9716d0.php 第 111 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\b65f8bc40abe095a734023c17e9716d0.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-31T00:08:32+08:00 ] 127.0.0.1 /index.php/Home/Flow/done.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ordinfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0080s ]
+SQL: INSERT INTO `ordinfo` (`ord_sn`,`user_id`,`xm`,`mobile`,`address`,`note`,`money`,`ordtime`) VALUES ('201605315843','0','','','','','1388','1464624512') [ RunTime:0.0010s ]
+SQL: INSERT INTO `ordgoods` (`ordinfo_id`,`goods_id`,`goods_name`,`shop_price`,`goods_num`) VALUES ('23','44','双方的身份第十三的订单','0.00','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `ordgoods` (`ordinfo_id`,`goods_id`,`goods_name`,`shop_price`,`goods_num`) VALUES ('23','1','KD876','1388.00','1') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-31T00:14:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_hot=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_best=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_new=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-31T00:16:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_hot=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_best=1 ) LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_new=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-05-31T00:16:21+08:00 ] 127.0.0.1 /index.php/Home/Index/goods/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `comment` WHERE ( 1=1 AND goods_id='1' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-05-31T00:16:22+08:00 ] 127.0.0.1 /index.php/Home/Index/goods/goods_id/view/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-05-31T00:16:22+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_hot=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_best=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SELECT `goods_id`,`goods_sn`,`goods_name`,`shop_price`,`goods_brief`,`thumb_img` FROM `goods` WHERE ( is_new=1 ) LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\78288e67fa79fdddffb40fce487aa556.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-31T00:16:22+08:00 ] 127.0.0.1 /index.php/Home/Index/goods/goods_id/images/ad/ads03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-31T00:16:23+08:00 ] 127.0.0.1 /index.php/Home/Flow/buy/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `goods` WHERE `goods_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-05-31T00:16:24+08:00 ] 127.0.0.1 /index.php/Home/Flow/checkout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\b65f8bc40abe095a734023c17e9716d0.php 第 111 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' C:\xampp\htdocs\tpshop\Runtime\Cache\Home\b65f8bc40abe095a734023c17e9716d0.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-05-31T00:16:29+08:00 ] 127.0.0.1 /index.php/Home/Flow/done.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ordinfo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ordgoods` [ RunTime:0.0110s ]
+SQL: INSERT INTO `ordinfo` (`ord_sn`,`user_id`,`xm`,`mobile`,`address`,`note`,`money`,`ordtime`) VALUES ('201605319996','0','','','','','1388','1464624988') [ RunTime:0.0000s ]
+SQL: INSERT INTO `ordgoods` (`ordinfo_id`,`goods_id`,`goods_name`,`shop_price`,`goods_num`) VALUES ('4','1','KD876','1388.00','1') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
